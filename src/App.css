@@ -27,13 +27,20 @@
   margin-right: 10px;
   cursor: pointer;
 }
-
-.thumbnail:hover {
-  border: 2px solid blue;
-}
-.thumbnail_button 
+.circleborder
 {
-    outline: none;
-    border: none;
-    padding: 15px 0;
+    width: 640px;
+    height: 70px;
+    
+    overflow: auto;
+    display: flex;
+   
+}
+.divcircle{
+  width: 100px;
+  border-radius: 50%;
+ 
+}
+.divcircle  img{
+  border-radius: 50%;
 }
